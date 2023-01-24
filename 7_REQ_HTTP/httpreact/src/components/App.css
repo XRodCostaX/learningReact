@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  padding: 50px;
+}
+.App li {
+  padding: 3px;
+}
+
+.add_product {
+  border-top: 1px solid #000;
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.deletar {
+  margin-left: 15px;
+  background-color: rgb(12, 53, 19);
+  color: #b1aa65;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.deletar:hover {
+  color: #ffffff;
+  background-color: rgb(255, 0, 0);
+  transition: 1s;
+  border: solid 1px rgb(0, 0, 0);
+
+
+}
